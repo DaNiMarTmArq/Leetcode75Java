@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        var solution = new ReverseVowels345();
-        System.out.println(solution.reverseVowels("hello"));
-        System.out.println(solution.reverseVowels("leetcode"));
+        var reverse = new ReverseWordString();
+        System.out.println(reverse.reverseWords("the sky is blue"));
+        System.out.println(reverse.reverseWords("  hello world  "));
+        System.out.println(reverse.reverseWords("a good   example"));
     }
 }
